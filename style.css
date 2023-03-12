@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  background-image: url(./registration-form-8.jpg);
+  background-repeat: no-repeat;
+}
+
+.wrapper.image-holder {
+  height: auto;
+  width: 100%;
+}
+.form-inner {
+  position: absolute;
+  margin: 500;
+  height: 100%;
+  width: 450px;
+  background-color: #ff97a4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  right: 0%;
+  padding: 0 19px;
+}
+
+h3 {
+  padding: 20px;
+  color: white;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.form-inner {
+  text-align: center;
+}
+.form-control {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 45px;
+  background-color: #ff97a4;
+  font-size: 20px;
+  padding: 20px;
+}
+.form-label {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+  text-align: inherit;
+  cursor: default;
+  font-family: "Roboto", sans-serif;
+}
+.form-label:hover {
+  border-color: red;
+}
+
+button {
+  color: #ff97a4;
+  background-color: white;
+  border: none;
+  border-radius: 22.5px;
+  width: 100%;
+  height: 46px;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+button:hover {
+  color: white;
+}
+p {
+  color: yellow;
+  margin-bottom: 22px;
+}
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.socials {
+  color: white;
+}
